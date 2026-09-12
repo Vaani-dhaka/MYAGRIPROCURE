@@ -16,7 +16,7 @@ import { CentresView } from './views/CentresView.js';
 import { TrackBookingView } from './views/TrackBookingView.js';
 import { SupportView } from './views/SupportView.js';
 import { FarmerPortalView } from './views/FarmerPortalView.js';
-import { StaffPortalView } from './views/StaffPortalView.js';
+import { StaffPortalView } from "./views/StaffPortalView";
 import { AdminPortalView } from './views/AdminPortalView.js';
 
 import { Centre, Booking, PlatformStats, UserRole } from './types/index.js';
