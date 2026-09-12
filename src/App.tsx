@@ -16,7 +16,7 @@ import { CentresView } from './views/CentresView';
 import { TrackBookingView } from './views/TrackBookingView';
 import { SupportView } from './views/SupportView';
 import { FarmerPortalView } from './views/FarmerPortalView';
-import { StaffPortalView } from "./views/StaffPortalView";
+import { StaffPortalView } from "./views/staff-portal-view";
 import { AdminPortalView } from './views/AdminPortalView';
 
 import { Centre, Booking, PlatformStats, UserRole } from './types/index';
