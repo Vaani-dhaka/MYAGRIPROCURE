@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Bot, MessageCircle, Send, Volume2, VolumeX, X } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
+import { useLanguage } from '../context/LanguageContext';
 
 type ChatMessage = { id: string; sender: 'user' | 'assistant'; text: string; time: string };
 

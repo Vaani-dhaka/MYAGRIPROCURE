@@ -21,8 +21,8 @@ import {
   ChevronRight,
   Scale,
 } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
-import { PlatformStats, Announcement } from '../types/index.js';
+import { useLanguage } from '../context/LanguageContext';
+import { PlatformStats, Announcement } from '../types/index';
 
 interface HomeViewProps {
   stats: PlatformStats | null;

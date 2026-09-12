@@ -1,4 +1,4 @@
-import { Centre } from '../types/index.js';
+import { Centre } from '../types/index';
 
 export const sortCentres = (centres: Centre[]): Centre[] =>
   [...centres].sort((a, b) =>

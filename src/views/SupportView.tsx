@@ -11,9 +11,9 @@ import {
   MessageSquare,
   ChevronRight,
 } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
-import { useAuth } from '../context/AuthContext.js';
-import { Ticket } from '../types/index.js';
+import { useLanguage } from '../context/LanguageContext';
+import { useAuth } from '../context/AuthContext';
+import { Ticket } from '../types/index';
 
 export const SupportView: React.FC = () => {
   const { language, t } = useLanguage();

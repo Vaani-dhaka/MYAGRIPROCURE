@@ -17,10 +17,10 @@ import {
   Edit2,
   Save,
 } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
-import { useAuth } from '../context/AuthContext.js';
-import { Booking, Product, WalletTransaction, BankDetails, Centre } from '../types/index.js';
-import { CentrePicker } from '../components/CentrePicker.js';
+import { useLanguage } from '../context/LanguageContext';
+import { useAuth } from '../context/AuthContext';
+import { Booking, Product, WalletTransaction, BankDetails, Centre } from '../types/index';
+import { CentrePicker } from '../components/CentrePicker';
 
 interface FarmerPortalViewProps {
   onBookNewSlot: () => void;

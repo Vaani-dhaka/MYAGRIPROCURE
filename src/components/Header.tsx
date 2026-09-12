@@ -20,10 +20,10 @@ import {
   Info,
   LayoutDashboard,
 } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
-import { useAccessibility } from '../context/AccessibilityContext.js';
-import { useAuth } from '../context/AuthContext.js';
-import { UserRole } from '../types/index.js';
+import { useLanguage } from '../context/LanguageContext';
+import { useAccessibility } from '../context/AccessibilityContext';
+import { useAuth } from '../context/AuthContext';
+import { UserRole } from '../types/index';
 
 interface HeaderProps {
   activeTab: string;

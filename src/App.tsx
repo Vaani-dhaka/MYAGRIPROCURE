@@ -1,25 +1,25 @@
 import React, { useState, useEffect } from 'react';
-import { LanguageProvider } from './context/LanguageContext.js';
-import { AccessibilityProvider } from './context/AccessibilityContext.js';
-import { AuthProvider, useAuth } from './context/AuthContext.js';
-import { Header } from './components/Header.js';
-import { NoticeTicker } from './components/NoticeTicker.js';
-import { Footer } from './components/Footer.js';
-import { BookingModal } from './components/BookingModal.js';
-import { KisanSahayak } from './components/KisanSahayak.js';
-import { AuthModal } from './components/AuthModal.js';
-import { AccessRestricted } from './components/AccessRestricted.js';
+import { LanguageProvider } from './context/LanguageContext';
+import { AccessibilityProvider } from './context/AccessibilityContext';
+import { AuthProvider, useAuth } from './context/AuthContext';
+import { Header } from './components/Header';
+import { NoticeTicker } from './components/NoticeTicker';
+import { Footer } from './components/Footer';
+import { BookingModal } from './components/BookingModal';
+import { KisanSahayak } from './components/KisanSahayak';
+import { AuthModal } from './components/AuthModal';
+import { AccessRestricted } from './components/AccessRestricted';
 
-import { HomeView } from './views/HomeView.js';
-import { AboutView } from './views/AboutView.js';
-import { CentresView } from './views/CentresView.js';
-import { TrackBookingView } from './views/TrackBookingView.js';
-import { SupportView } from './views/SupportView.js';
-import { FarmerPortalView } from './views/FarmerPortalView.js';
+import { HomeView } from './views/HomeView';
+import { AboutView } from './views/AboutView';
+import { CentresView } from './views/CentresView';
+import { TrackBookingView } from './views/TrackBookingView';
+import { SupportView } from './views/SupportView';
+import { FarmerPortalView } from './views/FarmerPortalView';
 import { StaffPortalView } from "./views/StaffPortalView";
-import { AdminPortalView } from './views/AdminPortalView.js';
+import { AdminPortalView } from './views/AdminPortalView';
 
-import { Centre, Booking, PlatformStats, UserRole } from './types/index.js';
+import { Centre, Booking, PlatformStats, UserRole } from './types/index';
 
 const MainAppContent: React.FC = () => {
   const { user } = useAuth();

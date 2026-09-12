@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Megaphone, ChevronRight, X, Calendar, AlertCircle } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
-import { Announcement } from '../types/index.js';
+import { useLanguage } from '../context/LanguageContext';
+import { Announcement } from '../types/index';
 
 export const NoticeTicker: React.FC = () => {
   const { language, t } = useLanguage();

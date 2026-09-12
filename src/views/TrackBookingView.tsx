@@ -14,8 +14,8 @@ import {
   Sparkles,
   Users,
 } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
-import { Booking } from '../types/index.js';
+import { useLanguage } from '../context/LanguageContext';
+import { Booking } from '../types/index';
 
 interface TrackBookingViewProps {
   initialToken?: string;

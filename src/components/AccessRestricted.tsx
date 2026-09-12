@@ -1,8 +1,8 @@
 import React from 'react';
 import { ShieldAlert, Lock, ArrowLeft, LogIn, CheckCircle } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
-import { useAuth } from '../context/AuthContext.js';
-import { UserRole } from '../types/index.js';
+import { useLanguage } from '../context/LanguageContext';
+import { useAuth } from '../context/AuthContext';
+import { UserRole } from '../types/index';
 
 interface AccessRestrictedProps {
   requiredRole: UserRole;

@@ -18,10 +18,10 @@ import {
   ArrowRight,
   ShieldCheck,
 } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
-import { useAuth } from '../context/AuthContext.js';
-import { sortCentres } from '../utils/centreUtils.js';
-import { Centre } from '../types/index.js';
+import { useLanguage } from '../context/LanguageContext';
+import { useAuth } from '../context/AuthContext';
+import { sortCentres } from '../utils/centreUtils';
+import { Centre } from '../types/index';
 
 interface CentresViewProps {
   onSelectCentreForBooking: (centre: Centre) => void;

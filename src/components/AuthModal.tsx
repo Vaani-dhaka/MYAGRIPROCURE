@@ -11,9 +11,9 @@ import {
   ArrowRight,
   Sparkles,
 } from 'lucide-react';
-import { useAuth } from '../context/AuthContext.js';
-import { useLanguage } from '../context/LanguageContext.js';
-import { UserRole } from '../types/index.js';
+import { useAuth } from '../context/AuthContext';
+import { useLanguage } from '../context/LanguageContext';
+import { UserRole } from '../types/index';
 
 interface AuthModalProps {
   isOpen: boolean;

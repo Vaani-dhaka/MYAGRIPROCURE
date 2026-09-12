@@ -1,10 +1,10 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { X, Calendar, Clock, Truck, Scale, CheckCircle, Printer, AlertTriangle, Building2, QrCode, Sparkles, MapPin } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
-import { useAuth } from '../context/AuthContext.js';
-import { Centre, Booking } from '../types/index.js';
-import { sortCentres } from '../utils/centreUtils.js';
-import { CentrePicker } from './CentrePicker.js';
+import { useLanguage } from '../context/LanguageContext';
+import { useAuth } from '../context/AuthContext';
+import { Centre, Booking } from '../types/index';
+import { sortCentres } from '../utils/centreUtils';
+import { CentrePicker } from './CentrePicker';
 
 interface BookingModalProps {
   centre: Centre | null;

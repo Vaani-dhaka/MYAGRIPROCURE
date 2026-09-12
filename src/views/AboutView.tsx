@@ -15,7 +15,7 @@ import {
   Info,
   Scale,
 } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
+import { useLanguage } from '../context/LanguageContext';
 
 interface AboutViewProps {
   onNavigate: (tab: string) => void;

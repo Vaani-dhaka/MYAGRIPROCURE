@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { BarChart3, Building2, Users, FileCheck, Megaphone, ShieldCheck, Search, Save, UserPlus, UserX, UserCheck, RefreshCw } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
-import { useAuth } from '../context/AuthContext.js';
-import { Centre, Ticket, Announcement, User } from '../types/index.js';
-import { CentrePicker } from '../components/CentrePicker.js';
+import { useLanguage } from '../context/LanguageContext';
+import { useAuth } from '../context/AuthContext';
+import { Centre, Ticket, Announcement, User } from '../types/index';
+import { CentrePicker } from '../components/CentrePicker';
 
 const authHeaders = () => ({ Authorization: `Bearer ${localStorage.getItem('paradox_token')}` });
 

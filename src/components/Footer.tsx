@@ -1,6 +1,6 @@
 import React from 'react';
 import { Phone, ShieldCheck, Heart, Building2, HelpCircle } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext.js';
+import { useLanguage } from '../context/LanguageContext';
 
 interface FooterProps {
   onNavigate: (tab: string) => void;

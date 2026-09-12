@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Check, ChevronDown, MapPin, Search } from 'lucide-react';
-import { Centre } from '../types/index.js';
+import { Centre } from '../types/index';
 
 interface CentrePickerProps {
   centres: Centre[];
