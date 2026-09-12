@@ -1,0 +1,6 @@
+{
+  "name": "PARADOX AgriProcure",
+  "description": "Digital Agriculture & Farmer Services Platform - Procurement Centre Directory, Slot Booking, Queue Tracking, and Citizen Support Services across India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
